@@ -1,4 +1,4 @@
-# An-Optimized-Scheme-For-Vertical-Fragmentation
+# An Optimized Scheme For Vertical Fragmentation
 ##Course Code: CS702
 
 
