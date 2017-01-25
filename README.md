@@ -2,7 +2,7 @@
 ##Course Code: CS702
 
 
-The primary concern of vertical fragmentation Allocation and Replication scheme (VFAR) [1] is to perform vertical fragmentation at the very beginning stage of Distributed Database design but without having any prior information about the frequency of user queries.
+The primary concern of Vertical Fragmentation Allocation and Replication scheme (VFAR) [1] is to perform vertical fragmentation at the very beginning stage of Distributed Database design but without having any prior information about the frequency of user queries.
 
 
 ###References:
