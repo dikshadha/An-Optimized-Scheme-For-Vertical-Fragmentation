@@ -1,4 +1,4 @@
-# An Optimized Scheme For Vertical Fragmentation
+# An Optimized Scheme For Vertical Fragmentation Allocation And Replication Of A Distributed Database
 ##Course Code: CS702
 
 
@@ -8,4 +8,3 @@ The primary concern of Vertical Fragmentation Allocation and Replication scheme 
 ###References:
 
 [1] Raouf, Ahmed E. Abdel, Nagwa L. Badr, and M. F. Tolba. "An optimized scheme for vertical fragmentation, allocation and replication of a distributed database." 2015 IEEE Seventh International Conference on Intelligent Computing and Information Systems (ICICIS). IEEE, 2015.
-
