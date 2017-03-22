@@ -9,12 +9,14 @@ public class ModifiedPrims {
 
 	public static int extractMax() {
 		int max = 0, index = 0;
-		for (int i = 0; i < numberOfVertices; i++)
-			if (!isVisited[i])
+		for (int i = 0; i < numberOfVertices; i++) {
+			if (!isVisited[i]) {
 				if (max < key[i]) {
 					max = key[i];
 					index = i;
 				}
+			}
+		}
 		return index;
 	}
 
