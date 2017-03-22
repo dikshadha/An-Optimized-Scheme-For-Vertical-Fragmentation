@@ -46,9 +46,7 @@ public class VerticalFragmetation {
 			int maxAlloc = 0, siteAlloc = 0;
 
 			for (int j = 0; j < numberOfSites; j++) {
-				boolean flag = false;
 				if (maxAlloc < MAMM[j][i]) {
-					flag = true;
 					maxAlloc = MAMM[j][i];
 					siteAlloc = j;
 				}
@@ -60,9 +58,7 @@ public class VerticalFragmetation {
 			int maxReplicate = 0, siteReplicate = 0;
 
 			for (int j = 0; j < numberOfSites; j++) {
-				boolean flag = false;
 				if (maxReplicate < MARM[j][i] && allocationTable[i] != j) {
-					flag = true;
 					maxReplicate = MARM[j][i];
 					siteReplicate = j;
 				}
