@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.StringTokenizer;
+import java.io.File;
 
 public class VerticalFragmetation {
 	ECRUDElement[][] matrix;
@@ -188,6 +189,12 @@ public class VerticalFragmetation {
 		BufferedReader brconsole = new BufferedReader(new InputStreamReader(System.in));
 		System.out.print("Enter the input file name : ");
 		String fileName = brconsole.readLine();
+		
+		File file = new File(fileName);		
+		if (!file.exists()) {
+			System.err.println("File Not found");
+			System.exit(-1);
+		}
 
 		// reading data from file.
 		FileInputStream fis = new FileInputStream(fileName);
