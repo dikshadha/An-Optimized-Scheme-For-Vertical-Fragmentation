@@ -200,10 +200,6 @@ public class VerticalFragmetation {
 
 		// initializing the matrix
 		matrix = new ECRUDElement[numberOfAttributes][numberOfSites];
-		/*
-		 * for(int i=0;i<numberOfSites;i++) matrix[i]=new
-		 * ECRUDElement[numberOfSites];
-		 */
 
 		for (int i = 0; i < numberOfAttributes; i++) {
 			String s = brfile.readLine();
@@ -211,7 +207,6 @@ public class VerticalFragmetation {
 			if (stz.countTokens() == numberOfSites * numberOfApplications) {
 				for (int j = 0; j < numberOfSites; j++) {
 					matrix[i][j] = new ECRUDElement(numberOfApplications);
-					// matrix[i][j].element=new CRUD[numberOfApplications];
 
 					for (int k = 0; k < numberOfApplications; k++) {
 						String current = stz.nextToken();
@@ -234,14 +229,6 @@ public class VerticalFragmetation {
 			}
 		}
 
-		// check by printing the input
-		/*
-		 * for(int i=0;i<numberOfAttributes;i++) { for(int
-		 * j=0;j<numberOfSites;j++) { System.out.print(matrix[i][j]); }
-		 * System.out.println(); }
-		 */
-
-		// end of the program
 		fis.close();
 		brconsole.close();
 		brfile.close();
