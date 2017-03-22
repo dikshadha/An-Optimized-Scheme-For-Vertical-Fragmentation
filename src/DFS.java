@@ -1,3 +1,6 @@
+/**
+ * @author vivek(16CS07F) and sourabh(16CS21F)
+ */
 
 import java.util.LinkedList;
 

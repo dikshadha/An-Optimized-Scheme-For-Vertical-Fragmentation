@@ -1,3 +1,6 @@
+/**
+ * @author vivek(16CS07F) and sourabh(16CS21F)
+ */
 
 public class CRUD {
 	boolean c, r, u, d;

@@ -1,3 +1,7 @@
+/**
+ * @author vivek(16CS07F) and sourabh(16CS21F)
+ */
+
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
